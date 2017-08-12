@@ -5,12 +5,12 @@
     <title>Error 403</title>
     <!-- Local -->
     <!-- Font Awsome-->
-    <link href="../../components/font-awesome/dist/css/font-awesome.css" ref="stylesheet">
+    <link href="../../components/font-awesome/css/font-awesome.css" rel="stylesheet">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="../../components/jquery/dist//jquery.min.js"></script>
-    <script src="../../components/popper.js/packages/popper/dist/popper.js"></script>
+    <script src="../../components/popper.js/dist/popper.js"></script>
     <!--Bootstrap -->
-    <link href="../../components/bootstrap/dist/css/bootstrap.css" ref="stylesheet">
+    <link href="../../components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <!-- Bootstrap Javascript -->
     <script src="../../components/bootstrap/dist/js/bootstrap.js"></script>
     <!-- Custom-->
@@ -19,29 +19,21 @@
 </head>
 
 <body>
+    <h1> Error 403</h1>
+    <h2> Sorry, you are not allowed to be access
+        <script>
+            document.write(location.pathname)
+        </script>
+    </h2>
 
-
+    <a href="https://www.demonwolfdev.com/" rel="nofollow"><button type="button" class="btn btn-primary btn-lg">Back Home</button></a>
     <!-- Footer -->
     <footer>
         <div class="footer">
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-10 col-lg-10">
-                        <div class="footer-copyright">
-                            Copyright ©
-                            <script>
-                                document.write("" + new Date().getFullYear());
-                            </script> <a href="/">DemonWolfDev</a> <span>, All rights reserved</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-2">
-                        <div class="footer-social">
-                            <a href="#"><i aria-hidden="true" class="fa fa-twitter twitter-color"></i></a>
-                            <a href="#"><i aria-hidden="true" class="fa fa-youtube-play youtube-color"></i></a>
-                            <a href="#"><i aria-hidden="true" class="fa fa-twitch twitch-color"></i></a>
-                            <a href="#"><i aria-hidden="true" class="fa fa-github github-color"></i></a>
-                        </div>
-                    </div>
+                <div class="row justify-content-end">
+                        <a href="https://legal.demonwolfdev.com" rel="nofollow">TOS</a>
+                        <a href="https://legal.demonwolfdev.com" rel="nofollow">Statement WUTFACE</a>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-md-10 col-lg-10">
@@ -64,17 +56,4 @@
             </div>
         </div>
     </footer>
-    <!-- Footer copyright with auto update year. -->
-    <div class="copyright">
-        <div class="container">
-            <div class="col-md-6">
-                <div class="footer-copyright"> Copyright ©
-                    <script>
-                        document.write("" + new Date().getFullYear());
-                    </script> <a href="/">WolfMate</a> <span>, All rights reserved</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
 </body>
