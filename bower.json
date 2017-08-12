@@ -1,0 +1,17 @@
+{
+  "name": "demonwolfdev-error-pages",
+  "description": "Error pages for apache",
+  "main": "gulpfile.js",
+  "authors": [
+    "DemonWolf"
+  ],
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/MrDemonWolf/demonwolfdev-error-pages",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
