@@ -60,4 +60,4 @@ typings/
 /components/jquery
 /components/font-awesome
 /components/popper.js/
-!/components/popper.js/dist
+!/components/popper.js/dist/*
