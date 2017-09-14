@@ -56,8 +56,4 @@ typings/
 
 # dotenv environment variables file
 .env
-/components/bootstrap
-/components/jquery
-/components/font-awesome
-/components/popper.js/
-!/components/popper.js/dist/*
+lib

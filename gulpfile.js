@@ -30,10 +30,10 @@ gulp.task('watch', ['browser-sync'], function () {
     gulp.watch("./css/style.css").on('change', bs.reload);
     // JS
     gulp.watch("./js//script.js").on('change', bs.reload);
-    // 403
+    // Error codes
+    gulp.watch("./401/index.html").on('change', bs.reload);
     gulp.watch("./403/index.html").on('change', bs.reload);
-    // 404
-    gulp.watch("./index.html").on('change', bs.reload);
-    // 500
+    gulp.watch("./404/index.html").on('change', bs.reload);
+    gulp.watch("./500/index.html").on('change', bs.reload);
     gulp.watch("./index.html").on('change', bs.reload);
 });
