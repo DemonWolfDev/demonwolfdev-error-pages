@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <!-- Font Awsome-->
-    <link href="../../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
     <!--Bootstrap -->
-    <link href="../../lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <style>
         /* Error Page Inline Styles */
 
@@ -60,20 +60,14 @@
             color: #d9534f;
         }
     </style>
-    <script type="text/javascript">
-        function loadDomain() {
-            var display = document.getElementById("display-domain");
-            display.innerHTML = document.domain;
-        }
-    </script>
 </head>
 
-<body onload="javascript:loadDomain();" class="body">
+<body class="body">
     <!-- Error Page Content -->
     <div class="container">
         <div class="jumbotron">
-            <h1><i class="fa fa-ban red"></i> 401 (Authorization required)</h1>
-            <p class="lead">Sorry! Your password and/or user-name was not vaild on <em><span id="display-domain"></span></em>.</p>
+            <h1><i class="fa fa-exclamation-triangle red"></i> 400 (Bad Request)</h1>
+            <p class="lead">Sorry! Request cannot be fulfilled due to bad syntax.</p>
             <p><a href="javascript:document.location.reload(true);" class="btn btn-default btn-lg text-center"><span class="green">Try again?</span></a></p>
         </div>
     </div>
@@ -82,13 +76,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <h2>What happened?</h2>
-                    <p class="lead">A 401 error status indicates that the password and/or user-name you entered was incorrect.</p>
+                    <p class="lead">A 400 error status indicates that your request cannot be fulfilled due to bad syntax.</p>
                 </div>
                 <div class="col-md-6">
                     <h2>What can I do?</h2>
-                    <p>Please use your browsers back button and check that you're in the right place also check if your password
-                        and/or user-name you have entered is correct. If you need immediate assistance, please send us an
-                        email instead <a href="mailto:webmaster@demonwolfdev.com">here</a>.</p>.</p>
+                    <p>Please use your browsers back button. If you need immediate assistance, please send us an email instead
+                        <a href="mailto:webmaster@demonwolfdev.com">here</a>.</p>.</p>
                 </div>
             </div>
         </div>
@@ -96,7 +89,7 @@
     <!-- End Error Page Content -->
     <!-- Loading JS in footer -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../../lib/jquery/dist//jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <!-- Bootstrap Javascript -->
-    <script src="../../lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
