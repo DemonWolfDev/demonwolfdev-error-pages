@@ -3,54 +3,112 @@
 
 <head>
     <title>Error 401</title>
-    <!-- Local -->
+    <!-- Basic Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <!-- Font Awsome-->
     <link href="../../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
     <!--Bootstrap -->
     <link href="../../lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <!-- Custom-->
-    <link href="../../css/style.css" rel="stylesheet">
-    <!-- Prod -->
+    <style>
+        /* Error Page Inline Styles */
+
+        body {
+            padding-top: 20px;
+        }
+        /* Layout */
+
+        .jumbotron {
+            font-size: 21px;
+            font-weight: 200;
+            line-height: 2.1428571435;
+            color: inherit;
+            padding: 10px 0px;
+        }
+        /* Everything but the jumbotron gets side spacing for mobile-first views */
+
+        .masthead,
+        .body-content,
+        {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        /* Main marketing message and sign up button */
+
+        .jumbotron {
+            text-align: center;
+            background-color: transparent;
+        }
+
+        .jumbotron .btn {
+            font-size: 21px;
+            padding: 14px 24px;
+        }
+        /* Colors */
+
+        .green {
+            color: #5cb85c;
+        }
+
+        .orange {
+            color: #f0ad4e;
+        }
+
+        .red {
+            color: #d9534f;
+        }
+    </style>
+    <script type="text/javascript">
+        function loadDomain() {
+            var display = document.getElementById("display-domain");
+            display.innerHTML = document.domain;
+        }
+
+    </script>
 </head>
 
 <body>
-    <h1>Error 401</h1>
-    <h2> Sorry, you are not allowed to be access
-        <script>
-            document.write(location.pathname)
-        </script>
-    </h2>
-
-    <a href="https://www.demonwolfdev.com/" rel="nofollow"><button type="button" class="btn btn-primary btn-lg">Back Home</button></a>
-    <!-- Footer -->
-    <footer>
-        <div class="footer">
-            <div class="container">
+    <body onload="javascript:loadDomain();">
+        <!-- Error Page Content -->
+        <div class="container">
+            <div class="jumbotron">
+                <h1><i class="fa fa-ban red"></i> 403 Forbidden</h1>
+                <p class="lead">Sorry! You don't have access permissions for that on <em><span id="display-domain"></span></em>.</p>
+                <p><a onclick=javascript:checkSite(); class="btn btn-default btn-lg green">Take Me To The Homepage</a>
+                    <script type="text/javascript">
+                        function checkSite() {
+                            var currentSite = window.location.hostname;
+                            window.location = "http://" + currentSite;
+                        }
+                    </script>
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="body-content">
                 <div class="row">
-                    <div class="col-xs-12 col-md-10 col-lg-10">
-                        <div class="footer-copyright">
-                            Copyright ©
-                            <script>
-                                document.write("" + new Date().getFullYear());
-                            </script> <a href="/">DemonWolfDev</a> <span>, All rights reserved</span>
-                        </div>
+                    <div class="col-md-6">
+                        <h2>What happened?</h2>
+                        <p class="lead">A 403 error status indicates that you don't have permission to access the file or page. In general,
+                            web servers and websites have directories and files that are not open to the public web for security
+                            reasons.</p>
                     </div>
-                    <div class="col-xs-12 col-md-2">
-                        <div class="footer-social">
-                            <a href="#"><i aria-hidden="true" class="fa fa-twitter twitter-color"></i></a>
-                            <a href="#"><i aria-hidden="true" class="fa fa-google-plus google-plus-color"></i></a>
-                            <a href="#"><i aria-hidden="true" class="fa fa-youtube-play youtube-color"></i></a>
-                            <a href="#"><i aria-hidden="true" class="fa fa-twitch twitch-color"></i></a>
-                            <a href="#"><i aria-hidden="true" class="fa fa-github github-color"></i></a>
-                        </div>
+                    <div class="col-md-6">
+                        <h2>What can I do?</h2>
+                        <p class="lead">If you're a site visitor</p>
+                        <p>Please use your browsers back button and check that you're in the right place. If you need immediate
+                            assistance, please send us an email instead.</p>
+                        <p class="lead">If you're the site owner</p>
+                        <p>Please check that you're in the right place and get in touch with your website provider if you believe
+                            this to be an error.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+        <!-- End Error Page Content -->
     <!-- Loading JS in footer -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../../lib/jquery/dist//jquery.min.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="../../lib/jquery/dist//jquery.min.js"></script>
     <!-- Bootstrap Javascript -->
