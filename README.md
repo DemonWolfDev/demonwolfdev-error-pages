@@ -1,20 +1,20 @@
-# [Error Pages](https://github.com/MrDemonWolf/maintenance-page)
+# [Error Pages](https://github.com/MrDemonWolf/error-pages)
 
 ## Preview
 
-**[View Live Preview](https://mrdemonwolf.github.io/maintenance-page)**
+**[View Live Preview](https://mrdemonwolf.github.io/error-pages)**
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/MrDemonWolf/maintenance-pager/master/LICENSE)
-[![dependencies Status](https://david-dm.org/MrDemonWolf/maintenance-page/status.svg)](https://david-dm.org/MrDemonWolf/maintenance-page)
-[![devDependencies Status](https://david-dm.org/MrDemonWolf/maintenance-page/dev-status.svg)](https://david-dm.org/MrDemonWolf/maintenance-page?type=dev)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/MrDemonWolf/error-pagesr/master/LICENSE)
+[![dependencies Status](https://david-dm.org/MrDemonWolf/error-pages/status.svg)](https://david-dm.org/MrDemonWolf/error-pages)
+[![devDependencies Status](https://david-dm.org/MrDemonWolf/error-pages/dev-status.svg)](https://david-dm.org/MrDemonWolf/error-pages?type=dev)
 
 ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
-* Clone the repo: `git clone https://github.com/MrDemonWolf/maintenance-page.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/MrDemonWolf/maintenance-page)
+* Clone the repo: `git clone https://github.com/MrDemonWolf/error-pages.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/MrDemonWolf/error-pages)
 
 ### Basic Usage
 
@@ -38,4 +38,4 @@ Hi, I'm Nathan. I am a Frontend & UI Designer who has a passion for creating uni
 
 ## Copyright and License
 
-Copyright 2018 MrDemonWolf. Code released under the [MIT](https://github.com/MrDemonWolf/maintenance-page/blob/master/LICENSE.md) license.
+Copyright 2018 MrDemonWolf. Code released under the [MIT](https://github.com/MrDemonWolf/error-pages/blob/master/LICENSE.md) license.
