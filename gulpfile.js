@@ -9,14 +9,10 @@ gulp.task('browser-sync', function() {
         server: {
             baseDir: "./",
         },
-    });  
+    });
 });
 
 gulp.task('watch', ['browser-sync'], function () {
     // Error codes
-    gulp.watch("./401/index.html").on('change', bs.reload);
-    gulp.watch("./403/index.html").on('change', bs.reload);
-    gulp.watch("./404/index.html").on('change', bs.reload);
-    gulp.watch("./500/index.html").on('change', bs.reload);
-    gulp.watch("./index.html").on('change', bs.reload);
+    gulp.watch("./*.html").on('change', bs.reload);
 });
