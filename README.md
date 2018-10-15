@@ -22,6 +22,10 @@ $ npm start
 
 And edit index.html
 
+### Uses
+[Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/)
+[Font-Awesome-SVG-PNG](https://github.com/encharm/Font-Awesome-SVG-PNG)
+
 ## Custom Builds
 
 You can hire me to create a custom build of any template, or create something from scratch using Bootstrap. For more information,  **[contact me](https://www.mrdemonwolf.me/about)**.
