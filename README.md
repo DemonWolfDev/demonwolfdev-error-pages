@@ -32,7 +32,7 @@ You can hire me to create a custom build of any template, or create something fr
 
 ## About
 
-Hi, I'm Nathan. I am a Frontend & UI Designer who has a passion for creating unique user experiences. Since 2012 I have been proudly making the internet a better place, one website at a time. I have had the pleasure to work on a variety of exciting projects involving WordPress development, UI design & front-end development.
+Am a Web Developer & Designer who has a passion for creating unique user experiences. Since 2012 I have been proudly making the internet a better place, one website at a time. I have had the pleasure to work on a variety of exciting projects involving WordPress development, UI design & front-end development.
 
 * https://www.mrdemonwolf.me
 * https://twitter.com/mrdemonwolf
