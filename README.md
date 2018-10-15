@@ -23,7 +23,7 @@ $ npm start
 And edit index.html
 
 ### Uses
-[Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/)
+[Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/)  
 [Font-Awesome-SVG-PNG](https://github.com/encharm/Font-Awesome-SVG-PNG)
 
 ## Custom Builds
