@@ -7,8 +7,6 @@
 ## Status
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/MrDemonWolf/error-pagesr/master/LICENSE)
-[![dependencies Status](https://david-dm.org/MrDemonWolf/error-pages/status.svg)](https://david-dm.org/MrDemonWolf/error-pages)
-[![devDependencies Status](https://david-dm.org/MrDemonWolf/error-pages/dev-status.svg)](https://david-dm.org/MrDemonWolf/error-pages?type=dev)
 
 ## Download and Installation
 
