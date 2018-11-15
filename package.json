@@ -16,7 +16,7 @@
     "url": "https://github.com/DemonWolfDev/demonwolfdev-error-pages/issues"
   },
   "devDependencies": {
-    "browser-sync": "~2.18.8",
+    "browser-sync": "~2.26.3",
     "gulp": "~3.9.1"
   },
   "dependencies": {
